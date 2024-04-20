@@ -1,3 +1,5 @@
+MAUVE_SNPs
+
 mauve_to_snps.py locates if a SNP is within the range of annotated features when given a gbk annotation file and the output of the SNP exporter tool in Mauve.
 
 - Takes the reference (or first) gbk input for progressiveMauve alignment and SNP export file as input. (script will use only the first column of the SNP file)
