@@ -9,7 +9,7 @@ mauve_to_snps.py locates if a SNP is within the range of annotated features when
 		USAGE: mauve_to_snps.py Exported_SNPS.txt  first_gbk_file > snps.txt  
 
 
-Note that this won't be foolproof for mis-annotations!....always check the sequence..
+Note that this won't be foolproof for mis-annotations!....always check the alignment..
 
 Output looks like:
 
@@ -24,3 +24,4 @@ Output looks like:
 	Value: 596
 	Range: 596, 723
 	-----
+
