@@ -85,7 +85,8 @@ for E in all_snp_conts:
     nod_id = str(E).split()[0]
 
     if len(E) < 2:  # If SNP but no annotation found.. print the node id.
-        print(f"{''.join(E)}: SNP here but no annotations found!")
+        print(f"{''.join(map(str, E))}: SNP here but no annotations found!")
+        print("-----")
     else:
         E = str(E).replace("CDS ", nod_id).replace("tRNA ", nod_id).replace("rRNA ", nod_id).replace("product=", "")
         E = re.sub(r"[',\[\]\"()]", "", E)  
@@ -144,7 +145,7 @@ snps_in_annot = {k: v for k, v in snps_in_annot.items() if k and v}
 
 ''' Print out final results '''
 for node, entries in snps_in_annot.items():
-    print(f"Node: {node}")
+    print(f"{node}")
     for entry in entries:
         product = entry['product']
         value = entry['value']
