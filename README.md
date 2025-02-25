@@ -1,4 +1,4 @@
-SNP Ranger
+## SNP-Ranger
 
 Given a gbk annotation file and the output of the SNP exporter tool from Mauve **snp_ranger.py** locates if an SNP is within the range of annotated features. This method speeds up the process of identifying SNP's of functional interest in coding regions.
 
@@ -7,10 +7,9 @@ The script takes the reference (or first) gbk input for progressiveMauve alignme
 The output is a list of SNPS found in annotated regions and will exclude anything outside the range of annotated tRNA, rRNA or CDS positions. It will also notify when it encouters a SNP in region with no annotation to aid further investigation.
 
 
-		USAGE: mauve_to_snps.py Exported_SNPS.txt  first_gbk_file > snps.txt  
+		USAGE: snp_ranger.py Exported_SNPS.txt  first_gbk_file > snps.txt  
 
 
-Note that this method isn't foolproof, always check the alignment as SNP's can be from eg. the same contaminants from both samples aligning or misannotations between refeence and target genomes.
 
 
 Example of output:
@@ -28,9 +27,17 @@ Example of output:
 	-----
 
 
-    Notes:
+
+
+
+
+
+Notes on usage:
+
+> This method isn't foolproof, be sure to check the alignment (SNP's can be from eg. the same contaminants from both samples aligning or misannotations between refeence and target genomes).
+
     
-    sometimes (but not always...)  rRNA entries are like this:
+>     sometimes (but not always...)  rRNA entries are like this:
         
         
         so ignored specific feature labels....and located products after....
