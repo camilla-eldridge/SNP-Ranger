@@ -1,4 +1,4 @@
-SNp Ranger
+SNP Ranger
 
 Given a gbk annotation file and the output of the SNP exporter tool from Mauve **snp_ranger.py** locates if an SNP is within the range of annotated features. This method speeds up the process of identifying SNP's of functional interest in coding regions.
 
