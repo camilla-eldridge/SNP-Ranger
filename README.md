@@ -40,4 +40,5 @@ The following python3 modules are required:
 - Be sure to check the alignment too (SNP's can be from eg. annotated regions of the same contaminant species from both samples aligning or misannotations between refeence and target genomes).
   
 
-This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0). See the LICENSE file for details.
+## Future use 
+This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0), this means you can share and adapt this code but you must give the original author credit and indicate any modifications made.
