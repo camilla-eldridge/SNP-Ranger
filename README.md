@@ -38,4 +38,6 @@ The following python3 modules are required:
 ### Additional notes:
 - This script was tested using gbk files from Prokka v1.7
 - Be sure to check the alignment too (SNP's can be from eg. annotated regions of the same contaminant species from both samples aligning or misannotations between refeence and target genomes).
+  
 
+This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0). See the LICENSE file for details.
